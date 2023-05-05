@@ -1,0 +1,232 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #78c3fbd7;
+}
+
+header {
+  height: 100px;
+  background-image: url(images/fotobase3.jpeg);
+  display: flex;
+
+  flex-wrap: nowrap;
+
+  align-items: flex-end;
+  
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  width: 900px;
+  justify-content: space-around;
+  padding-left: 400px;
+  margin-bottom: 10px;
+}
+
+li {
+  display: inline-block;
+  justify-content: space-between;
+  
+}
+
+ul li .unico{
+  color: rgb(228, 103, 57);
+}
+
+a{
+   color: white;
+  font-family: "Laila", sans-serif;
+  font-size: larger;
+   
+}
+
+.titulo {
+  height: 50px;
+  width: 100px;
+  color: aliceblue;
+  font-family: "Laila", sans-serif;
+  font-size: x-large;
+  padding-bottom: 150px;
+  padding-left: 500px;
+
+}
+
+#logo {
+  margin-bottom: 10px;
+  margin-left: 35px;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  background-image: url(images/logo1.jpg);
+  border: 5px solid  rgba(230, 178, 127, 0.903);
+}
+
+main {
+  height: 600px;
+  
+  display: flex;
+  background-color:#22a1e3;
+  gap: 10px;
+}
+
+nav {
+  width: 25%;
+  background-color:#22a1e3;
+  border-style: ridge;
+}
+
+
+.articulo {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+border-style: ridge;
+}
+
+.articulo h1{
+  margin-top: 10px;
+  font-size: x-large;
+  font-family:  "Laila", sans-serif;
+  color: rgba(230, 178, 127, 0.903);
+
+ 
+}
+
+.articulo p{
+  margin-top: 20px;
+   font-family:  "Laila", sans-serif;
+ font-size: medium;
+ color: white;
+ padding: 10px;
+ 
+}
+
+.foto1{
+  height: 450px;
+  width: 700px;
+  border: 5px solid  rgba(230, 178, 127, 0.808);
+  margin-bottom: 20%;
+}
+
+aside {
+  width: 25%;
+  background-color:#22a1e3;
+  border-style:ridge
+}
+
+.nav1 h2{
+  margin-top: 10px;
+  text-align: center;
+  font-size: x-large;
+  font-family:  "Laila", sans-serif;
+  color: rgba(230, 178, 127, 0.903);
+}
+
+.nav1 p{
+ margin-top: 20px;
+   font-family:  "Laila", sans-serif;
+ font-size: medium;
+ color: white;
+ text-align: center;
+}
+
+footer {
+  height: 100px;
+  background-color:#22a1e3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-style: ridge;
+}
+
+a{
+  margin: 20px;
+  text-decoration: none;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: rgb(220, 50, 95);
+  color: white;
+}
+
+.articulo form{
+  width: 700px;
+  height: 700px;
+ text-align: center;
+  
+}
+
+
+.articulo h1 form {
+  width: 500px;
+  background-color: aliceblue;
+  height: 500px;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.articulo form input {
+  width: 100%;
+ font-size: 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 4px solid rgb(230, 237, 237);
+  margin-top: 10px;
+}
+
+.cuerpo h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: capitalize;
+  color: rgb(6, 6, 6);
+}
+.articulo textarea {
+  width: 100%;
+
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 4px solid rgb(230, 237, 237);
+}
+
+.articulo  #boton {
+  background-color: rgb(221, 185, 78);
+  font-size: 25px;
+  border-bottom: 4px solid rgb(230, 237, 237);
+  padding: 10px;
+}
+.articulo input::placeholder {
+  color: rgb(13, 13, 13);
+}
