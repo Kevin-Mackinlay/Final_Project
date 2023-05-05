@@ -13,40 +13,12 @@ body {
 
 header {
   height: 100px;
-  background-image: url(images/fotobase3.jpeg);
+  background-image: url(.././images/fotobase3.jpeg);
   display: flex;
 
   flex-wrap: nowrap;
 
   align-items: flex-end;
-  
-}
-
-ul {
-  display: flex;
-  flex-direction: row;
-  /* flex-wrap: wrap; */
-  width: 900px;
-  justify-content: space-around;
-  padding-left: 400px;
-  margin-bottom: 10px;
-}
-
-li {
-  display: inline-block;
-  justify-content: space-between;
-  
-}
-
-ul li .unico{
-  color: rgb(228, 103, 57);
-}
-
-a{
-   color: white;
-  font-family: "Laila", sans-serif;
-  font-size: larger;
-   
 }
 
 .titulo {
@@ -57,7 +29,6 @@ a{
   font-size: x-large;
   padding-bottom: 150px;
   padding-left: 500px;
-
 }
 
 #logo {
@@ -67,88 +38,143 @@ a{
   width: 90px;
   height: 90px;
   background-image: url(images/logo1.jpg);
-  border: 5px solid  rgba(230, 178, 127, 0.903);
+  border: 5px solid rgba(230, 178, 127, 0.903);
 }
 
 main {
   height: 600px;
-  
   display: flex;
-  background-color:#22a1e3;
+  /* flex-direction: column; */
+  background-color: #22a1e3;
   gap: 10px;
+   border-style: ridge;
+}
+
+
+.main_section{
+ width: 25%;
+  /* flex-direction:column;
+  flex-wrap: nowrap;
+  justify-content: flex-start; */
+  background-color: #22a1e3;
+}
+
+.main_section h2{
+  margin: 20px;
+  text-align: center;
+  color: aliceblue;
+  font-family: "Laila", sans-serif;
+  font-size: large;
+}
+
+.main_section p{
+  color: aliceblue;
+  font-family: "Laila", sans-serif;
+  font-size: medium;
+  text-align: center;
 }
 
 nav {
-  width: 25%;
-  background-color:#22a1e3;
-  border-style: ridge;
+  display: flex;
+  width: auto;
+  background-color: #229fe300;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding-left: 100px;
+
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 900px;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+li {
+  display: inline-block;
+  justify-content: space-between;
+}
+
+ul li .unico {
+  color: rgb(228, 103, 57);
+}
+
+a {
+  color: white;
+  font-family: "Laila", sans-serif;
+  font-size: larger;
+}
+
+.articulo{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: end;
+  justify-content: center;
+  align-content:flex-end ; */
+   border-style: ridge;
+}
+
+.articulo img{
+  width: 600px;
+  height: 500px;
 }
 
 
-.articulo {
- display: flex;
- flex-direction: column;
- align-items: center;
-border-style: ridge;
-}
-
-.articulo h1{
-  margin-top: 10px;
-  font-size: x-large;
-  font-family:  "Laila", sans-serif;
-  color: rgba(230, 178, 127, 0.903);
-
- 
-}
-
-.articulo p{
-  margin-top: 20px;
-   font-family:  "Laila", sans-serif;
- font-size: medium;
- color: white;
- padding: 10px;
- 
-}
-
-.foto1{
+.foto1 {
   height: 450px;
   width: 700px;
-  border: 5px solid  rgba(230, 178, 127, 0.808);
+  border: 5px solid rgba(230, 178, 127, 0.808);
   margin-bottom: 20%;
 }
 
 aside {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-content: center;
   width: 25%;
-  background-color:#22a1e3;
-  border-style:ridge
+  background-color: #22a1e3;
+  border-style: ridge;
 }
 
-.nav1 h2{
+.nav1 h2 {
   margin-top: 10px;
   text-align: center;
   font-size: x-large;
-  font-family:  "Laila", sans-serif;
+  font-family: "Laila", sans-serif;
   color: rgba(230, 178, 127, 0.903);
 }
 
-.nav1 p{
- margin-top: 20px;
-   font-family:  "Laila", sans-serif;
- font-size: medium;
- color: white;
- text-align: center;
+.nav1 p {
+  margin-top: 20px;
+  font-family: "Laila", sans-serif;
+  font-size: medium;
+  color: white;
+  text-align: center;
 }
 
 footer {
   height: 100px;
-  background-color:#22a1e3;
+  background-color: #22a1e3;
   display: flex;
   flex-direction: row;
   justify-content: center;
   border-style: ridge;
 }
 
-a{
+a {
   margin: 20px;
   text-decoration: none;
 }
@@ -157,7 +183,6 @@ a{
   padding: 20px;
   font-size: 30px;
   width: 50px;
-  
 }
 
 .fa:hover {
@@ -167,7 +192,6 @@ a{
 .fa-facebook {
   background: #3b5998;
   color: white;
-
 }
 
 .fa-twitter {
@@ -180,13 +204,11 @@ a{
   color: white;
 }
 
-.articulo form{
+.articulo form {
   width: 700px;
   height: 700px;
- text-align: center;
-  
+  text-align: center;
 }
-
 
 .articulo h1 form {
   width: 500px;
@@ -198,7 +220,7 @@ a{
 
 .articulo form input {
   width: 100%;
- font-size: 20px;
+  font-size: 20px;
   background-color: transparent;
   border: none;
   border-bottom: 4px solid rgb(230, 237, 237);
@@ -221,7 +243,7 @@ a{
   border-bottom: 4px solid rgb(230, 237, 237);
 }
 
-.articulo  #boton {
+.articulo #boton {
   background-color: rgb(221, 185, 78);
   font-size: 25px;
   border-bottom: 4px solid rgb(230, 237, 237);
