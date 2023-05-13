@@ -47,19 +47,18 @@ main {
   /* flex-direction: column; */
   background-color: #22a1e3;
   gap: 10px;
-   border-style: ridge;
+  border-style: ridge;
 }
 
-
-.main_section{
- width: 25%;
+.main_section {
+  width: 25%;
   /* flex-direction:column;
   flex-wrap: nowrap;
   justify-content: flex-start; */
   background-color: #22a1e3;
 }
 
-.main_section h2{
+.main_section h2 {
   margin: 20px;
   text-align: center;
   color: aliceblue;
@@ -67,7 +66,7 @@ main {
   font-size: large;
 }
 
-.main_section p{
+.main_section p {
   color: aliceblue;
   font-family: "Laila", sans-serif;
   font-size: medium;
@@ -82,7 +81,6 @@ nav {
   justify-content: center;
   align-content: center;
   padding-left: 100px;
-
 }
 
 ul {
@@ -92,24 +90,17 @@ ul {
   width: 900px;
   justify-content: space-around;
   margin-bottom: 10px;
+  margin-left: 80px;
 }
 
-li {
-  display: inline-block;
-  justify-content: space-between;
+
+.nav-link {
+  color: white !important;
+  font-size: large !important;
+  font-weight: 700 !important;
 }
 
-ul li .unico {
-  color: rgb(228, 103, 57);
-}
-
-a {
-  color: white;
-  font-family: "Laila", sans-serif;
-  font-size: larger;
-}
-
-.articulo{
+.articulo {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -123,23 +114,20 @@ a {
   align-items: end;
   justify-content: center;
   align-content:flex-end ; */
-   border-style: ridge;
+  border-style: ridge;
 }
 
-.articulo img{
+.articulo img {
   width: 700px;
   height: 400px;
-  border: 1px solid rgba(230, 178, 127, 0.808) ;
+  border: 1px solid rgba(230, 178, 127, 0.808);
 }
 
-.articulo h1{
-   color: white;
-  font-family: "Laila", sans-serif;
+.articulo h1 {
+  color: white;
+  margin-left: 200px;
   margin-bottom: 80px;
-  font-size:xx-large;
-margin-bottom: 50px;
 }
-
 
 .foto1 {
   height: 450px;
@@ -154,16 +142,16 @@ aside {
   border-style: ridge;
 }
 
-#grilla{
+#grilla {
   display: grid;
   grid-template-columns: 500px;
   grid-template-rows: 300px;
 }
 
-.publicidad{
-   width : 400px;
-   height: 280px;
-   gap: 10px;
+.publicidad {
+  width: 400px;
+  height: 280px;
+  gap: 10px;
 }
 .nav1 h2 {
   margin-top: 10px;
